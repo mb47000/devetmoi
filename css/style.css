@@ -1,38 +1,111 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
 }
 
 .container {
-    max-width: 1140px;
-    margin: auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 nav {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
 }
 
 .brand {
-    display: flex;
+  display: flex;
 }
 
 ul {
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
 }
 
 li {
-    list-style: none;
-    
+  list-style: none;
 }
 
 li:first-child {
-    margin-right: 1rem;
+  margin-right: 1.9rem;
+}
+
+.banner {
+  background: url("/images/backgroung_image.jpg") no-repeat;
+  background-size: cover;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner img {
+    width: 200px;
+    height: auto;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 810px;
+}
+
+.content h2 {
+    margin-top: 3.2rem;
+    font-weight: normal;
+    color: #575757;
+    font-size: 1.4rem;
+}
+
+.services {
+    display: flex;
+    margin-bottom: 3.5rem;
+}
+
+.services div {
+    width: 33.33%;
+    padding: 1em;
+}
+
+.services h3 {
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+.services p {
+    font-size: 0.77rem;
+}
+
+.avis {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.avis p q {
+    font-weight: normal;
+    font-size:1.3rem;
+    color: #575757;
+}
+
+.avis p {
+    font-weight: 100; 
 }
