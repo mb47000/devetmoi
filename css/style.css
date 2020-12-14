@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.brand {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    
+}
+
+li:first-child {
+    margin-right: 1rem;
+}
